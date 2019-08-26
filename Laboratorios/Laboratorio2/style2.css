@@ -26,7 +26,10 @@
         opacity: 0.8;
         padding: 1em;
         text-transform: uppercase ;
+    }
 
+    .btn:hover{
+        opacity: 1.0;
     }
 
     /*
