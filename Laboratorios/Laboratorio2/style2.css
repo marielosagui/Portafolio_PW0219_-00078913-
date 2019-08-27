@@ -43,11 +43,11 @@
     */
 
     .btn.small{
-    text-decoration: 0.7em;
+        font-family: 0.7em;
     }
 
     .btn.big{
-        text-decoration: 1.1em;
+        font-family: 1.1em;
     }
     /*
         Sección Colores
@@ -92,22 +92,25 @@
     */
 
     .btn.boder{
-        background:transparent;
+        background:transparent ;
         border-color: #1A237E;
         color: #1A237E;
     }
 
     .btn.border.green{
+        background: transparent;
         color:#4CAF50;
         border-color: #4CAF50; 
     }
 
     .btn.border.sky{
+        background: transparent;
         color: #00BCD4;
         border-color: #00BCD4;
     }
 
     .btn.border.purple{
+        background: transparent;
         color: #673AB7;
         border-color: #673AB7;
     } 
