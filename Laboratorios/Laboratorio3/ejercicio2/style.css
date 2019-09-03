@@ -1,8 +1,8 @@
-.body{
+body{
     box-sizing: border-box;
     height: 100vh;
     overflow: hidden;
-    background-image: url("https://media.istockphoto.com/photos/triangular-abstract-background-picture-id624878906?k=6&m=624878906&s=612x612&w=0&h=uDcbe038RdtiiHchahAbwOYfx0bkPVLfsn0NOjA0gTM=");
+    background-image: url("https://backgroundcheckall.com/wp-content/uploads/2018/10/simple-powerpoint-background-professional-3.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -54,7 +54,7 @@ main>img{
     width: 50%;
     height: auto;
     margin: 1em;
-    background: black;
+    background:whitesmoke;
     border-radius: 5px;
 }
 
@@ -92,5 +92,17 @@ justify-content: center;
 
 footer{
     width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
 
+footer>span{
+    padding: 0.7em;
+    color: whitesmoke;
+    font-size: 0.8em;
+    text-decoration: underline;
+    background: black;
+    border-radius: 0.5em;
+    opacity: 0.7;
 }
