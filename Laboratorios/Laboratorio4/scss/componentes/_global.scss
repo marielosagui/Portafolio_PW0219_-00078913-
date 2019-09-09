@@ -1,0 +1,33 @@
+
+//declarando variables
+$color-primary: rgb(77, 150, 179);
+$color-secondary: rgb(206, 65, 199);
+$color-tertiary:rgb(64, 134, 64);
+$color-white: white;
+$color-dark:black;
+
+//mixing para elementos que se repiten, tienen parametros
+
+@mixin set-dimension ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+color-dark
+body{
+
+    @include set-dimension(auto,100vh);
+    box-sizing: border-box;
+  
+    overflow: hidden;
+    background-image: url("https://backgroundcheckall.com/wp-content/uploads/2018/10/simple-powerpoint-background-professional-3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 1em 5%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
