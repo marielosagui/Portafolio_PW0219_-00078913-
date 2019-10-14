@@ -1,0 +1,55 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MY Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Actividades diarias de Bases de Datos</h1>
+    <div class="container stuff">
+        <section class="section-btn">
+            <button class="btn prev" id="prev">Previous</button>
+            <button class="btn next" id="next">Next</button>
+        </section>
+        <section class="section-img">
+            <img src="./recursos/perfil.jpg" alt="">
+        </section>
+    </div>
+
+    <div class="container main">
+        <!-- <h2>DIAS DE ACTIVIDADES</h2> -->
+        <h3 id="title-day">Dia: Lunes</h2>
+        <section class="section-paragraph">
+            <p class="day show" id="lunes"><br>Begin</br> Empieza el juego,Ale Rav envia un video con un mensaje
+            de destruccion de la Uca, a partir de aca se manifiesta Kurt conocido de Ale Rav,que propone el 
+            ejercicio que consiste en la validacion de DUI al que se le pase como parametro y que este devuelva 
+            si es correcto o falso si no lo es.
+            Para realizacion de este ejercicio primero se verifica, valida la longitud del dato con 10 caracteres,
+            la posicion del guion,al estar validados se crea la funcion suma que es igual a la suma de la
+            multiplicacion del digito por su posicion, del resultado se obtiene el modulo que es igual al
+            total de suma modulo diez (cantidad de digitos del dui), para obtener el digito verificador
+            es la resta diez menos resultado del modulo, si el resultado obtenido de esta resta es igual al 
+            digito verificador (ultimo dato del DUI) entonces el DUI es valido.
+            Al final este ejercicio el mensaje fue ir al polideportivo de la uca a buscar la nueva pista.</p>
+
+            <p class="day" id="martes">Ada envia un mensaje donde a descubierto a Ale, para este el ejercicio
+                consistia en crear dos funciones trigger;el primero  donde se validara que el representante del departamento
+                debe trabajar en ese departamento y no en otro.Se deberá rechazar la inserción o actualización de un departamento 
+                con un representante que no trabaje para dicho departamento, por otro lado, si hubiera una actualización del departamento
+                 en el que un miembro trabaja, ésta deberá rechazarse si resultara que el miembro es el representante del mismo
+            </p>
+            <p class="day" id="miercoles">urabitur sodales bibendum lacus. Donec eget nibh massa.</p>
+            <p class="day" id="jueves">Donec accumsan non diam a elementum.</p>
+            <p class="day" id="viernes">Phasellus sollicitudin semper orci eu dignissim.</p>
+        </section>
+
+    </div>
+    
+</body>
+
+<script src="./assets/main.js"></script>
+
+</html>

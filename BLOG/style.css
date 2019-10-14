@@ -1,0 +1,90 @@
+
+body {
+    background-color: 	#fcfdfd;
+    padding: 0em 3em 0em 3em;
+     font-size: 16px
+}
+
+h1 {
+    text-align: center;
+    color: #69199e;
+    background:darkcyan; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-block: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 25px auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container.main {
+    color: #3091ba;
+}
+
+h2 {
+    font-size: 2.5vw;
+}
+
+.btn {
+    border: 1.5px solid	#2b689b;
+    border-radius: 5%;
+    font-size: 1.5vw;
+    padding: 5px 5px;
+    text-transform: capitalize;
+    color:#2b689b;
+    background-color: transparent;
+
+}
+
+.section-paragraph {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.section-paragraph p {
+  margin: 5px 5px;
+    font-size: 2vw;
+
+}
+
+.section-btn {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+}
+
+.section-btn button {
+    margin-left: 1.5vw;
+}
+
+.section-img {
+    width: 100%;
+    margin-top: 25px;
+  image-orientation: from-image;
+    display: flex;
+    flex-flow: row wrap;
+   justify-content: center;
+
+}
+
+.section-img img {
+    width: 15vw;
+    height: auto;
+}
+
+.day {
+    display: none;
+}
+
+.show {
+    display: contents;
+}
