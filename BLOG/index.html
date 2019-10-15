@@ -1,55 +1,230 @@
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MY Blog</title>
     <link rel="stylesheet" href="style.css">
+    <title>Una Vision Perversa</title>
 </head>
 
 <body>
-    <h1>Actividades diarias de Bases de Datos</h1>
-    <div class="container stuff">
-        <section class="section-btn">
-            <button class="btn prev" id="prev">Previous</button>
-            <button class="btn next" id="next">Next</button>
-        </section>
-        <section class="section-img">
-            <img src="./recursos/perfil.jpg" alt="">
-        </section>
-    </div>
-
-    <div class="container main">
-        <!-- <h2>DIAS DE ACTIVIDADES</h2> -->
-        <h3 id="title-day">Dia: Lunes</h2>
-        <section class="section-paragraph">
-            <p class="day show" id="lunes"><br>Begin</br> Empieza el juego,Ale Rav envia un video con un mensaje
-            de destruccion de la Uca, a partir de aca se manifiesta Kurt conocido de Ale Rav,que propone el 
-            ejercicio que consiste en la validacion de DUI al que se le pase como parametro y que este devuelva 
-            si es correcto o falso si no lo es.
-            Para realizacion de este ejercicio primero se verifica, valida la longitud del dato con 10 caracteres,
-            la posicion del guion,al estar validados se crea la funcion suma que es igual a la suma de la
-            multiplicacion del digito por su posicion, del resultado se obtiene el modulo que es igual al
-            total de suma modulo diez (cantidad de digitos del dui), para obtener el digito verificador
-            es la resta diez menos resultado del modulo, si el resultado obtenido de esta resta es igual al 
-            digito verificador (ultimo dato del DUI) entonces el DUI es valido.
-            Al final este ejercicio el mensaje fue ir al polideportivo de la uca a buscar la nueva pista.</p>
-
-            <p class="day" id="martes">Ada envia un mensaje donde a descubierto a Ale, para este el ejercicio
-                consistia en crear dos funciones trigger;el primero  donde se validara que el representante del departamento
-                debe trabajar en ese departamento y no en otro.Se deberá rechazar la inserción o actualización de un departamento 
-                con un representante que no trabaje para dicho departamento, por otro lado, si hubiera una actualización del departamento
-                 en el que un miembro trabaja, ésta deberá rechazarse si resultara que el miembro es el representante del mismo
+    <header>
+        <section class="head">
+            <nav>
+                <a href="#" class="links" id="one">Lunes</a>
+                <a href="#" class="links" id="two">Martes</a>
+                <a href="#" class="links" id="three">Miercoles</a>
+                <a href="#" class="links" id="four">Jueves</a>
+                <a href="#" class="links" id="five">Viernes</a>
+                <div class="animation start-home"></div>
+            </nav>
+            <p>Un dia como cualquiera asistia a mis clases de administracion de bases de Datos, el catedratico inicio su
+                clase
+                y luego un video repentino de un anonimo donde decia llamarse Ale Rav, todos los presentes asustados.
+                Nos empezo a contar de su plan malefico que era destruir la universidad, que todos obtendriamos nuestros
+                titulos debido a este suceso, claramente todos nos emocionamos al oir esto. Ahi comenzo todo... para investigar y evitar que esto sucediera conocidos de Ale rav nos propusieron un
+                juego buscar las pistas de Qr y hacer el trabajo desafio.
             </p>
-            <p class="day" id="miercoles">urabitur sodales bibendum lacus. Donec eget nibh massa.</p>
-            <p class="day" id="jueves">Donec accumsan non diam a elementum.</p>
-            <p class="day" id="viernes">Phasellus sollicitudin semper orci eu dignissim.</p>
+            <img src="recursos/perfil.jpg" width="100px">
+
+
+
         </section>
 
-    </div>
-    
+    </header>
+
+    <main>
+        <article class="art one">
+            <h2 class="capitulo">Begin</h2>
+            <section class="dayfirts">
+
+                <p><br>Begin</br> Empieza el juego,Ale Rav envia un video con un mensaje
+                    de destruccion de la Uca, a partir de aca se manifiesta Kurt conocido de Ale Rav,que propone el
+                    ejercicio que consiste en la validacion de DUI al que se le pase como parametro y que este devuelva
+                    si es correcto o falso si no lo es.</p>
+
+                <p>Para realizacion de este ejercicio primero se verifica, valida la longitud del dato con 10
+                    caracteres,
+                    la posicion del guion,al estar validados se crea la funcion suma que es igual a la suma de la
+                    multiplicacion del digito por su posicion, del resultado se obtiene el modulo que es igual al
+                    total de suma modulo diez (cantidad de digitos del dui), para obtener el digito verificador
+                    es la resta diez menos resultado del modulo, si el resultado obtenido de esta resta es igual al
+                    digito verificador (ultimo dato del DUI) entonces el DUI es valido.</p>
+                <p>Al final este ejercicio el mensaje fue ir al polideportivo de la uca a buscar la nueva pista.</p>
+
+            </section>
+
+            <div><img src="recursos/imagen1.jpg" width="300"></div>
+
+        </article>
+
+        <article class="art two off">
+
+            <h2 class="cap">O-O-O</h2>
+
+            <section class="dias">
+
+                <p>Ada envia un mensaje donde a descubierto a Ale, para este el ejercicio
+                    consistia en crear dos funciones trigger;el primero donde se validara que el representante del
+                    departamento
+                    debe trabajar en ese departamento y no en otro.Se deberá rechazar la inserción o actualización de un
+                    departamento
+                    con un representante que no trabaje para dicho departamento, por otro lado, si hubiera una
+                    actualización del departamento
+                    en el que un miembro trabaja, ésta deberá rechazarse si resultara que el miembro es el representante
+                    del mismo</p>
+            </section>
+
+            <div><img src="images/prueba2.jpg" width="600"></div>
+
+        </article>
+
+        <article class="art three off">
+
+            <h2 class="cap">¿Amigo o Enemigo?</h2>
+
+            <section class="journal">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur non pariatur consectetur
+
+                    doloribus accusamus molestiae commodi optio ipsa eaque. Neque aliquid laboriosam ipsum praesentium
+
+                    animi magni libero pariatur aspernatur, optio illo placeat incidunt repellendus, et facere sequi
+
+                    quisquam exercitationem consequatur dolor? Suscipit, veniam distinctio deserunt quos fuga saepe
+
+                    illum doloribus quo illo alias quod officiis ipsam consectetur animi eos at expedita ullam
+
+                    praesentium ratione nulla rem aspernatur soluta maxime. Cum alias quas nihil eligendi sit quo nulla
+
+                    minima cumque facilis voluptas illo, eum mollitia. Aspernatur quas obcaecati expedita facilis
+
+                    possimus alias at provident odit dolorem, soluta, distinctio hic laboriosam dignissimos!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit nobis nostrum
+
+                    perspiciatis, itaque illum nemo fugiat explicabo sint omnis, eum perferendis doloribus
+
+                    exercitationem facere laboriosam. Cupiditate velit inventore ut rerum fuga voluptatibus recusandae
+
+                    veniam soluta dolorem quibusdam. Nesciunt quaerat aspernatur deleniti esse sequi nihil velit culpa,
+
+                    alias ipsa. Fugiat vero, ad reprehenderit nulla numquam eveniet iusto aliquam? Ipsa, nulla quasi
+
+                    laborum animi accusantium soluta, repudiandae aut, aspernatur incidunt cumque explicabo! Modi
+
+                    repellendus, blanditiis maxime itaque temporibus maiores atque magnam sed dolores ut, omnis ad
+
+                    similique voluptates labore, laudantium vel velit. Earum eum obcaecati voluptas nostrum voluptate
+
+                    neque maxime quaerat!</p>
+
+            </section>
+
+            <div><img src="images/prueba3.jpg" width="600"></div>
+
+        </article>
+
+        <article class="art four off">
+
+            <h2 class="cap">La Recta Final</h2>
+
+            <section class="journal">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur non pariatur consectetur
+
+                    doloribus accusamus molestiae commodi optio ipsa eaque. Neque aliquid laboriosam ipsum praesentium
+
+                    animi magni libero pariatur aspernatur, optio illo placeat incidunt repellendus, et facere sequi
+
+                    quisquam exercitationem consequatur dolor? Suscipit, veniam distinctio deserunt quos fuga saepe
+
+                    illum doloribus quo illo alias quod officiis ipsam consectetur animi eos at expedita ullam
+
+                    praesentium ratione nulla rem aspernatur soluta maxime. Cum alias quas nihil eligendi sit quo nulla
+
+                    minima cumque facilis voluptas illo, eum mollitia. Aspernatur quas obcaecati expedita facilis
+
+                    possimus alias at provident odit dolorem, soluta, distinctio hic laboriosam dignissimos!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit nobis nostrum
+
+                    perspiciatis, itaque illum nemo fugiat explicabo sint omnis, eum perferendis doloribus
+
+                    exercitationem facere laboriosam. Cupiditate velit inventore ut rerum fuga voluptatibus recusandae
+
+                    veniam soluta dolorem quibusdam. Nesciunt quaerat aspernatur deleniti esse sequi nihil velit culpa,
+
+                    alias ipsa. Fugiat vero, ad reprehenderit nulla numquam eveniet iusto aliquam? Ipsa, nulla quasi
+
+                    laborum animi accusantium soluta, repudiandae aut, aspernatur incidunt cumque explicabo! Modi
+
+                    repellendus, blanditiis maxime itaque temporibus maiores atque magnam sed dolores ut, omnis ad
+
+                    similique voluptates labore, laudantium vel velit. Earum eum obcaecati voluptas nostrum voluptate
+
+                    neque maxime quaerat!</p>
+
+            </section>
+
+            <div><img src="images/prueba4.jpg" width="600"></div>
+
+        </article>
+
+        <article class="art five off">
+
+            <h2 class="cap">Adiós Vaquero...</h2>
+
+            <section class="journal">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur non pariatur consectetur
+
+                    doloribus accusamus molestiae commodi optio ipsa eaque. Neque aliquid laboriosam ipsum praesentium
+
+                    animi magni libero pariatur aspernatur, optio illo placeat incidunt repellendus, et facere sequi
+
+                    quisquam exercitationem consequatur dolor? Suscipit, veniam distinctio deserunt quos fuga saepe
+
+                    illum doloribus quo illo alias quod officiis ipsam consectetur animi eos at expedita ullam
+
+                    praesentium ratione nulla rem aspernatur soluta maxime. Cum alias quas nihil eligendi sit quo nulla
+
+                    minima cumque facilis voluptas illo, eum mollitia. Aspernatur quas obcaecati expedita facilis
+
+                    possimus alias at provident odit dolorem, soluta, distinctio hic laboriosam dignissimos!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit nobis nostrum
+
+                    perspiciatis, itaque illum nemo fugiat explicabo sint omnis, eum perferendis doloribus
+
+                    exercitationem facere laboriosam. Cupiditate velit inventore ut rerum fuga voluptatibus recusandae
+
+                    veniam soluta dolorem quibusdam. Nesciunt quaerat aspernatur deleniti esse sequi nihil velit culpa,
+
+                    alias ipsa. Fugiat vero, ad reprehenderit nulla numquam eveniet iusto aliquam? Ipsa, nulla quasi
+
+                    laborum animi accusantium soluta, repudiandae aut, aspernatur incidunt cumque explicabo! Modi
+
+                    repellendus, blanditiis maxime itaque temporibus maiores atque magnam sed dolores ut, omnis ad
+
+                    similique voluptates labore, laudantium vel velit. Earum eum obcaecati voluptas nostrum voluptate
+
+                    neque maxime quaerat!</p>
+
+            </section>
+
+            <div><img src="images/prueba5.jpg" width="600"></div>
+
+        </article>
+
+    </main>
+
 </body>
 
-<script src="./assets/main.js"></script>
+<script src="assets/main.js"></script>
+
+
 
 </html>

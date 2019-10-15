@@ -1,100 +1,26 @@
-(function() {
-    const btnNext = document.querySelector('#next');
-    const btnPrev = document.querySelector('#prev');
+window.onload = function(){
 
+    var days = document.querySelectorAll(".links");
+    var arts = document.querySelectorAll(".art");
 
-    btnPrev.addEventListener('click', () => {
-        let monday = document.getElementById('lunes');
-        if(monday.className == 'day show') {
-            btnPrev.disabled = true;
-        }
-        else {
-            btnPrev.disabled = false;
-            btnNext.disabled = false;
-            prevPage();
-        }
-    });
+    days.forEach((item)=>{
 
-    btnNext.addEventListener('click', () => {
+        item.addEventListener("click",()=>{
 
-        let friday = document.getElementById('viernes');
+            arts.forEach((item)=>{
 
-        if(friday.className == 'day show') {
+                item.classList.add("off");
 
-            btnNext.disabled = true;
+            });
 
-        }
+            var on = item.id;
 
-        else {
+            var arton = document.querySelector(".art." + on);
 
-            btnPrev.disabled = false;
+            arton.classList.toggle("off");
 
-            btnNext.disabled = false;
-
-            nextPage();
-
-        }
+        })
 
     });
 
-})();
-
-
-
-function prevPage() {
-
-    let arrayDay = document.getElementsByClassName('day');
-
-    let cont = 0;
-
-    for (let i = 0; i < arrayDay.length; i++) {
-
-        if(arrayDay[i].className == 'day show') {
-
-            break;
-
-        }
-
-        cont++;
-
-    }
-
-    arrayDay[cont].classList.remove('show');
-
-    arrayDay[cont-1].classList.add('show');
-
-    let day = document.getElementById('title-day');
-
-    day.innerText = `DÍA: ${arrayDay[cont-1].id.toUpperCase()}`;
-
-}
-
-
-
-function nextPage() {
-
-    let arrayDay = document.getElementsByClassName('day');
-
-    let cont = 0;
-
-    for (let i = 0; i < arrayDay.length; i++) {
-
-        if(arrayDay[i].className == 'day show') {
-
-            break;
-
-        }
-
-        cont++;
-
-    }
-
-    arrayDay[cont].classList.remove('show');
-
-    arrayDay[cont+1].classList.add('show');
-
-    let day = document.getElementById('title-day');
-
-    day.innerText = `DÍA: ${arrayDay[cont+1].id.toUpperCase()}`;
-
-}
+};
